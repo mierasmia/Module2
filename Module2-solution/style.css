@@ -1,42 +1,42 @@
-
-    *{box-sizing: border-box;
+ *{box-sizing: border-box;
       margin: 0;
   padding: 0;}
 
-    
+  body{margin:0;} 
 
 	.row{width: 100%;
 		position: relative;}
 
-	section {
-		position: relative;
-  border: 3px solid black;
-  background-color: #A52A2A;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 30px;
-  font-family: Helvetica;
-  color: white;
-  padding: 10px;
-}
+
+section {
+	position: relative;
+    background-color: #008080;
+    border: 1px solid black;
+    height: 150px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding:10px;
+    padding-top: 35px;
+}        
+
 h1 {text-align: center;
     	margin-bottom: 15px;}
 
 
     	h3{
-    		position: relative;
-    		width: 100px;
-    		left: 250px;
-    		right:3px;
-    		text-align:right;
+
+            position: absolute;
+    		top: 0;
+    		right:0;
+    		text-align:center;
     		border: solid 2px;
     		border-color: #000000;
-    		margin-bottom: 20px;
-    	}
+    		padding: 4px;
+    	 	}
+
     	.colour-regionS{color: #00ff00;}
-    	.colour-regionC{color:#00ffff; }
+    	.colour-regionC{color: #0000ff;}
     	.colour-regionM{color: #ffff00;}
 
 
@@ -48,9 +48,8 @@ h1 {text-align: center;
 		.col-lg-4
 		{ 
 			float: left;
-			border: 1px;
 			width: 33.33%;
-			margin: 0px;
+			
 		}
 
 	}
@@ -62,20 +61,17 @@ h1 {text-align: center;
 	@media(min-width: 768px) and (max-width: 991px)
 	{
 		.col-md-6
-		{   float: left;
-			border: 1px;
+		{  
+		    float: left;
 			width: 50%;
-			margin: 0px;
-
-
-		}
+			
+        }
 		
 	    .col-md-12
 		{
 			float: left;
-			border: 1px;
 			width: 100%;
-			margin: 0px;
+			
 
 		}
 	}
@@ -90,9 +86,7 @@ h1 {text-align: center;
 		.col-sm-12
 		{
 			float: left;
-			border: 1px;
-			width: 100%;
-			margin: 0px;
-
+		    width: 100%;
+			
 		}
 	}
