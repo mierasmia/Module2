@@ -35,9 +35,9 @@ h1 {text-align: center;
     		padding: 4px;
     	 	}
 
-    	.colour-regionS{color: #00ff00;}
-    	.colour-regionC{color: #0000ff;}
-    	.colour-regionM{color: #ffff00;}
+    	.colour-regionS{background-color: #00ff00;}
+    	.colour-regionC{background-color: #0000ff;}
+    	.colour-regionM{background-color: #ffff00;}
 
 
     	
